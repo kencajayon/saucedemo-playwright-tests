@@ -8,7 +8,12 @@ Tests are written against the public demo site https://www.saucedemo.com.
 - Invalid password (negative test)
 - Locked-out user (negative test)
 - Add item to cart
+- Cart shows the correct item
+- Remove item from cart
+- Sort products by price (low to high)
 - Logout
+- Checkout with missing first name (negative test)
+- Complete checkout
 
 ## How to run
 
