@@ -11,14 +11,23 @@ Tests are written against the public demo site https://www.saucedemo.com.
 - Logout
 
 ## How to run
+
 1. Create and activate a virtual environment:
-   python -m venv venv
-   venv\Scripts\Activate.ps1
+```
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
 2. Install dependencies:
-   pip install pytest-playwright
-   playwright install
+```
+pip install pytest-playwright
+playwright install
+```
+
 3. Run the tests:
-   pytest --headed
+```
+pytest --headed
+```
 
 ## Tools
 Python, Playwright, Pytest, VS Code
