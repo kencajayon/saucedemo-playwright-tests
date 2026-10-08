@@ -32,6 +32,14 @@ playwright install
 3. Run the tests:
 ```
 pytest --headed
+
+
+## Generate an HTML report
+```
+pip install pytest-html
+pytest --html=report.html --self-contained-html
+```
+
 ```
 ## Project structure
 - `tests/` : test files (login, cart, checkout)
