@@ -17,12 +17,6 @@ Tests are written against the public demo site https://www.saucedemo.com.
 
 ## How to run
 
-## Generate an HTML report
-```
-pip install pytest-html
-pytest --html=report.html --self-contained-html
-```
-
 1. Create and activate a virtual environment:
 ```
 python -m venv venv
