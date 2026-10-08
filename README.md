@@ -38,7 +38,6 @@ pytest --headed
 ```
 pip install pytest-html
 pytest --html=report.html --self-contained-html
-
 ```
 ## Project structure
 - `tests/` : test files (login, cart, checkout)
