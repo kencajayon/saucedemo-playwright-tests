@@ -33,6 +33,10 @@ playwright install
 ```
 pytest --headed
 ```
+## Project structure
+- `tests/` : test files (login, cart, checkout)
+- `pages/` : Page Object Model classes (LoginPage, InventoryPage, CartPage, CheckoutPage)
+- `pytest.ini` : pytest configuration
 
 ## Tools
 Python, Playwright, Pytest, VS Code
