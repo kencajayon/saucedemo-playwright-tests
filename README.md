@@ -36,7 +36,8 @@ playwright install
 ```
 
 3. Run the tests:
-```pytest --headed
+```
+pytest --headed
 ```
 
 ## Generate an HTML report
